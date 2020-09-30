@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, body{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.alignment{
+    width: 95%;
+    height: 78px;
+    margin: 0 auto;
+    background-color: #765f3b78;
+}
+.header-img img{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -10;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+.w-60{
+    width: 60%;
+}
+.w-40{
+    width: 40%;
+}
+.w30{
+    width: 30%;
+}
+.d-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-betweem{
+    justify-content: space-between;
+}
+.font{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.grapefruit-tea{
+    height: auto;
+}
+.menu ul li{
+    list-style: none;
+}
+.sub-menu a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-icon{
+    display: none;
+    width: 50px;
+    height: 30px;
+    color: lemonchiffon;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.text-header{
+    text-align: center;
+    top: 0;
+	left: 0;
+    margin-top: 20%;
+    font-size: 30px;
+}
+.text-header p {
+	width: 80%;
+	background: #765f3bad;
+	margin: 6px auto;
+	color: white;
+	animation: bgMove 1s forwards;
+	transition: 1.5s;
+	opacity: 1;
+}
+.service{
+    width: 100vw;
+    height: auto;
+    margin-top: 5%;
+}
+.drink-menu{
+    margin-top: 5%;
+}
+.padding-top{
+    padding-top: 15px;
+}
+@media only screen and (max-width: 780px) {
+    .drink-menu {
+     display: block;
+    }
+    .grapefruit-tea{
+        margin-top: 20px;
+    }
+    .sub-menu{
+        display: none;
+    }
+    .menu-icon{
+       display: inline;
+    }
+  }
